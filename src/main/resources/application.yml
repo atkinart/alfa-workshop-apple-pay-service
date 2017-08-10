@@ -1,0 +1,16 @@
+#appleCards:
+#  - "1111-2222-3333-4444"
+#  - "1111-2222-3333-4444"
+#  - "1111-2222-3333-4444"
+#  - "1111-2222-3333-4444"
+
+
+#  serviceUrl:
+#   defaultZone: ${EUREKA_SERV:http://127.0.0.1:8763/eureka/}
+# instance:
+#  leaseRenewalIntervalInSeconds: 10
+#  appname: ${spring.application.name}
+#  virtualHostName : ${spring.application.name}
+#  preferIpAddress: false
+#  metadataMap:
+#   instanceId: ${spring.application.name}:${spring.application.instance_id:${random.value}}

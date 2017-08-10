@@ -3,10 +3,10 @@ spring:
   name: apple-pay-service
  cloud:
   config:
-   enabled: false
-   failFast: false
+   enabled: true
+   failFast: true
    discovery:
-    enabled: false
+    enabled: true
     serviceId: config-server
 
 
@@ -24,6 +24,11 @@ logging:
 management:
   security:
     enabled: false
+
+server:
+  port: 0
+
+
 
 #  serviceUrl:
 #   defaultZone: ${EUREKA_SERV:http://127.0.0.1:8763/eureka/}
